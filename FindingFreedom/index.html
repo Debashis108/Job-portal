@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FindingFreedom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <!-- <img src="logo.PNG" alt="Job Portal Logo"> -->
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#jobs">Jobs</a></li>
+        <li><a href="#companies">Companies</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="auth-buttons">
+      <button class="login">Login</button>
+      <button class="register">Register</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Find Your Dream Job</h1>
+    <p>Search for jobs, connect with companies, and grow your career.</p>
+    <form class="search-form">
+      <input type="text" id="search-job" placeholder="Job title or keyword">
+      <input type="text" id="search-location" placeholder="Location">
+      <button type="submit">Search</button>
+    </form>
+  </section>
+
+  <section class="job-listings" id="jobs">
+    <h2>Latest Job Listings</h2>
+    <div class="jobs-container">
+      <!-- Job cards will be dynamically added here using JavaScript -->
+    </div>
+  </section>
+
+  <section class="companies" id="companies">
+    <h2>Top Companies</h2>
+    <div class="companies-container">
+      <!-- Company logos will be dynamically added here using JavaScript -->
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>We are a leading job portal dedicated to helping job seekers find their dream jobs and connecting employers with top talent.</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Job Portal. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
